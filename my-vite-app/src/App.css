@@ -1,0 +1,98 @@
+
+.social-media-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.post-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.post-form button,
+.comments-section button {
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+}
+
+.post-content {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.post-stats {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.comments-section {
+  margin-top: 10px;
+}
+
+.comments-section ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.comments-section ul li {
+  margin-bottom: 5px;
+}
+
+.comment-username {
+  font-weight: bold;
+  color: #333;
+}
+
+.comments-section input[type="text"] {
+  width: calc(100% - 80px);
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments-section button[type="submit"] {
+  padding: 8px 12px;
+} 
